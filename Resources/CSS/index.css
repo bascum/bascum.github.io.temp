@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: inter;
+}
+
+nav {
+    background-color: #282828;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0C0032;
+}
+
+#my-name {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
