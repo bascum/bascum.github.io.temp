@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #b8b8b5;
+    background-color: #cccbca;
 }
 
 main {
@@ -13,12 +13,20 @@ main {
     padding: 0;
 }
 
+img {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #282828;
+    background-color: #262121;
 }
 
 li {
@@ -34,7 +42,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #0C0032;
+    background-color: #303c4c;
 }
 
 .flex-box {
@@ -50,9 +58,22 @@ li a:hover {
     flex-wrap: wrap;
 }
 
+#about-me {
+    text-align: center;
+}
+
 #my-name {
     padding: 50px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+#education {
+    text-align: center;
+    border-top: 3px #262121 solid;
+    margin-top: 35px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
