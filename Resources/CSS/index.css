@@ -4,8 +4,13 @@
     font-family: inter;
 }
 
-nav {
-    background-color: #282828;
+body {
+    background-color: #764df0;
+}
+
+main {
+    margin: auto;
+    padding: 0;
 }
 
 ul {
@@ -13,6 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #282828;
 }
 
 li {
@@ -31,10 +37,22 @@ li a:hover {
     background-color: #0C0032;
 }
 
+.flex-box {
+    width: 200px;
+}
+
+#about-and-headshot {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #my-name {
     padding: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    
+    text-align: center;
 }
